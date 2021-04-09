@@ -2,10 +2,10 @@
 
 namespace MagicDeckbuilder.Controllers
 {
-    public class CardController : Controller
+    public class CollectionController : Controller
     {
         // GET
-        public IActionResult Create()
+        public IActionResult Overview()
         {
             return View();
         }
