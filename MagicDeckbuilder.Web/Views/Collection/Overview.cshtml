@@ -1,3 +1,18 @@
-﻿<form asp-action="Create" asp-controller="Card" method="post">
-   <input type="submit" value="Add New Card" />
-</form>
+﻿@using MagicDeckbuilder.Logic.Entities
+@model Card;
+
+@{
+     <!-- Haal hier een lijst op van alle kaarten in de database-->
+   <table style="width:100%">
+   <tr>
+            <th>@Model.Name</th>
+            <th>@Model.Power</th>
+            <th>@Model.Toughness</th>
+            <th>@Model.ManaCost</th>
+         </tr>
+   </table>
+
+    <form asp-action="Create" asp-controller="Card" method="post">
+      <input type="submit" value="Create New Card"/>
+   </form>
+}
