@@ -1,13 +1,12 @@
 ﻿@using MagicDeckbuilder.Logic.Entities
+@model Card
 @{
-
-    Card card = Model;
     <div>
         <form id="newCard">
-            <p>Name: @card.Name</p>
-            <p>Power: @card.Power</p>
-            <p>Toughness: @card.Toughness</p>
-             <p>manaCost: @card.ManaCost</p>
+            <p>Name: @Model.Name</p>
+            <p>Power: @Model.Power</p>
+            <p>Toughness: @Model.Toughness</p>
+             <p>manaCost: @Model.ManaCost</p>
         </form>
 
         <button type="submit" form="newCard">Create</button>

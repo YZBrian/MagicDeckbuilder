@@ -8,8 +8,8 @@ namespace MagicDeckbuilder.Controllers
         // GET
         public IActionResult Create()
         {
-            ViewData.Model = new Card();
-            return View();
+            Card card = new Card();
+            return View(card);
         }
     }
 }
