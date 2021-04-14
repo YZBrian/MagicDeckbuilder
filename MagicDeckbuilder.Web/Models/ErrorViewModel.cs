@@ -1,5 +1,3 @@
-using System;
-
 namespace MagicDeckbuilder.Models
 {
     public class ErrorViewModel
