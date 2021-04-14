@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MagicDeckbuilder.Logic.Entities;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MagicDeckbuilder.Controllers
 {
@@ -7,6 +8,7 @@ namespace MagicDeckbuilder.Controllers
         // GET
         public IActionResult Create()
         {
+            ViewData.Model = new Card();
             return View();
         }
     }

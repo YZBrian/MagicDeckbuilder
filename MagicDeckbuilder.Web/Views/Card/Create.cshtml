@@ -1,20 +1,15 @@
-﻿<!-- Create 'Card' class,
-reference attributes on this page,
-make add button.-->
-<div>
-    <form id="newCard">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
+﻿@using MagicDeckbuilder.Logic.Entities
+@{
 
-        <label for="power">Power:</label><br>
-        <input type="text" id="power" name="power"><br>
+    Card card = Model;
+    <div>
+        <form id="newCard">
+            <p>Name: @card.Name</p>
+            <p>Power: @card.Power</p>
+            <p>Toughness: @card.Toughness</p>
+             <p>manaCost: @card.ManaCost</p>
+        </form>
 
-        <label for="toughness">Toughness:</label><br>
-        <input type="text" id="toughness" name="toughness"><br>
-
-        <label for="manaCost">Mana Cost:</label><br>
-        <input type="number" id="manaCost" name="manaCost">
-    </form>
-
-    <button type="submit" form="newCard">Create</button>
-</div>
+        <button type="submit" form="newCard">Create</button>
+    </div>
+}
