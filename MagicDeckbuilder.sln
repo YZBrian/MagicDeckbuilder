@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicDeckbuilder.Logic", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicDeckbuilder.DAL", "MagicDeckbuilder.DAL\MagicDeckbuilder.DAL.csproj", "{2D138C9E-61AE-4DC1-B9DD-65B0602A129C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic.Deckbuilder.Interfaces", "Magic.Deckbuilder.Interfaces\Magic.Deckbuilder.Interfaces.csproj", "{2DA8D153-E217-4E80-BDB7-AE7198184321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicDeckbuilder.Factories", "MagicDeckbuilder.Factories\MagicDeckbuilder.Factories.csproj", "{FF543755-3CAB-4456-9141-DE4AB3E3C31E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{2D138C9E-61AE-4DC1-B9DD-65B0602A129C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D138C9E-61AE-4DC1-B9DD-65B0602A129C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D138C9E-61AE-4DC1-B9DD-65B0602A129C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA8D153-E217-4E80-BDB7-AE7198184321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA8D153-E217-4E80-BDB7-AE7198184321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA8D153-E217-4E80-BDB7-AE7198184321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA8D153-E217-4E80-BDB7-AE7198184321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF543755-3CAB-4456-9141-DE4AB3E3C31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF543755-3CAB-4456-9141-DE4AB3E3C31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF543755-3CAB-4456-9141-DE4AB3E3C31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF543755-3CAB-4456-9141-DE4AB3E3C31E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

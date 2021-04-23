@@ -4,4 +4,9 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MagicDeckbuilder.Factories\MagicDeckbuilder.Factories.csproj" />
+      <ProjectReference Include="..\Magic.Deckbuilder.Interfaces\Magic.Deckbuilder.Interfaces.csproj" />
+    </ItemGroup>
+
 </Project>

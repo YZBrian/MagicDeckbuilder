@@ -2,14 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Magic.Deckbuilder.Factories</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Magic.Deckbuilder.Interfaces\Magic.Deckbuilder.Interfaces.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="MySql.Data" Version="8.0.23" />
+      <ProjectReference Include="..\MagicDeckbuilder.Models\MagicDeckbuilder.Models.csproj" />
+      <ProjectReference Include="..\MagicDeckbuilder.DAL\MagicDeckbuilder.DAL.csproj" />
     </ItemGroup>
 
 </Project>

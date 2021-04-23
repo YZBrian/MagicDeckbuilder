@@ -14,7 +14,7 @@ namespace MagicDeckbuilder
         {
             Configuration = configuration;
         }
-
+/*
         private static void OpenSqlConnection()
         {
             string connectionString = GetConnectionString();
@@ -33,6 +33,7 @@ namespace MagicDeckbuilder
         {
             return "Server=studmysql01.fhict.local;Uid=dbi346421;Database=dbi346421;Pwd=BrianData;";
         }
+        */
         
         private IConfiguration Configuration { get; }
 
